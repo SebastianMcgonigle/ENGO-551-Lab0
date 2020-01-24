@@ -1,0 +1,39 @@
+* {
+    padding: 1%;
+    margin: 0;
+}
+
+/*navigation bar on top of every page*/
+.topnav {
+    text-align: center;
+    background-color: black;
+}
+
+.insta {
+    color: black;
+}
+
+/*body of every page*/
+body{
+    text-align: center;
+    background-color: goldenrod;
+}
+
+/*text inside topnav bar*/
+a {
+    color: goldenrod;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+}
+
+/*Photos have tag: gold*/
+#gold{
+    width: 50%;
+    height: auto;
+}
+
+/*hyper links*/
+a:hover{
+    color:white;
+    text-decoration: none;
+}
