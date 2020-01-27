@@ -1,0 +1,120 @@
+/*SCSS*/
+/*variable*/
+/* line 6, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+body {
+  background-color: goldenrod;
+  text-align: center;
+}
+
+/*nesting*/
+/*navigation bar on top of every page*/
+/* line 13, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+.topnav {
+  text-align: center;
+  background-color: black;
+  height: 8%;
+  /*text inside topnav bar*/
+}
+
+/* line 18, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+.topnav a {
+  color: goldenrod;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+/*inheritance*/
+/* line 28, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+.third, .tenth, .seventeenth, .twenty-fourth {
+  font-family: sans-serif;
+}
+
+/* line 32, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+.third {
+  background-color: green;
+}
+
+/* line 37, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+.tenth {
+  background-color: red;
+}
+
+/* line 42, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+.seventeenth {
+  background-color: green;
+}
+
+/* line 47, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+.twenty-fourth {
+  background-color: red;
+}
+
+/*CSS*/
+/* line 54, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+* {
+  padding: 1%;
+  margin: 0;
+}
+
+/*hyper-links for instagram*/
+/* line 60, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+.insta {
+  color: black;
+}
+
+/*grid columns*/
+/* line 65, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+.columns {
+  width: 100px;
+  height: auto;
+}
+
+/*Photos have tag: gold*/
+/* line 71, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+#gold {
+  width: 50%;
+  height: auto;
+}
+
+/*photos in grid
+.serve {
+    width: 100%;
+}
+
+/*grid container*/
+/* line 82, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+#grid {
+  width: 100%;
+}
+
+/*hyper links in navigation bar*/
+/* line 87, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 92, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+b:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* If the screen size is 601px or more, set the font-size of <insta> to 28px */
+@media only screen and (min-width: 601px) {
+  /* line 99, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+  .insta {
+    font-size: 24px;
+  }
+}
+
+/* If the screen size is 600px or less, set the font-size of <insta> to 18px */
+@media only screen and (max-width: 600px) {
+  /* line 106, ../../../OneDrive/Desktop/Winter 2020/ENGO 551/sweet-potatoes/src/scss/styles.scss */
+  .insta {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

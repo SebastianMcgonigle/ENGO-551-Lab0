@@ -1,0 +1,109 @@
+/*SCSS*/
+
+/*variable*/
+$primary-color: goldenrod;
+
+body{
+    background-color: $primary-color;
+    text-align: center;
+}
+
+/*nesting*/
+/*navigation bar on top of every page*/
+.topnav {
+    text-align: center;
+    background-color: black;
+    height: 8%;
+    /*text inside topnav bar*/
+    a {
+    color: goldenrod;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    text-decoration: none;
+    }
+}
+
+/*inheritance*/
+
+%date{
+    font-family:sans-serif;
+}
+
+.third{
+    @extend %date;
+    background-color: green;
+}
+
+.tenth{
+    @extend %date;
+    background-color: red;
+}
+
+.seventeenth{
+    @extend %date;
+    background-color: green;
+}
+
+.twenty-fourth{
+    @extend %date;
+    background-color: red;
+}
+
+/*CSS*/
+
+* {
+    padding: 1%;
+    margin: 0;
+}
+
+/*hyper-links for instagram*/
+.insta {
+    color: black;
+}
+
+/*grid columns*/
+.columns{
+    width: 100px;
+    height:auto;
+}
+
+/*Photos have tag: gold*/
+#gold{
+    width: 50%;
+    height: auto;
+}
+
+/*photos in grid
+.serve {
+    width: 100%;
+}
+
+/*grid container*/
+#grid {
+    width:100%;
+}
+
+/*hyper links in navigation bar*/
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+b:hover{
+    color:white;
+    text-decoration:none;
+}
+
+/* If the screen size is 601px or more, set the font-size of <insta> to 28px */
+@media only screen and (min-width: 601px) {
+    .insta {
+      font-size: 24px;
+    }
+  }
+  
+  /* If the screen size is 600px or less, set the font-size of <insta> to 18px */
+  @media only screen and (max-width: 600px) {
+    .insta {
+      font-size: 18px;
+    }
+  }

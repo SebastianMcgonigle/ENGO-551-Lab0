@@ -3,27 +3,15 @@
     margin: 0;
 }
 
-/*navigation bar on top of every page*/
-.topnav {
-    text-align: center;
-    background-color: black;
-}
-
+/*hyper-links for instagram*/
 .insta {
     color: black;
 }
 
-/*body of every page*/
-body{
-    text-align: center;
-    background-color: goldenrod;
-}
-
-/*text inside topnav bar*/
-a {
-    color: goldenrod;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 22px;
+/*grid columns*/
+.columns{
+    width: 100px;
+    height:auto;
 }
 
 /*Photos have tag: gold*/
@@ -32,8 +20,37 @@ a {
     height: auto;
 }
 
-/*hyper links*/
+/*photos in grid
+.serve {
+    width: 100%;
+}
+
+/*grid container*/
+#grid {
+    width:100%;
+}
+
+/*hyper links in navigation bar*/
 a:hover{
     color:white;
     text-decoration: none;
 }
+
+b:hover{
+    color:white;
+    text-decoration:none;
+}
+
+/* If the screen size is 601px or more, set the font-size of <insta> to 28px */
+@media only screen and (min-width: 601px) {
+    .insta {
+      font-size: 24px;
+    }
+  }
+  
+  /* If the screen size is 600px or less, set the font-size of <insta> to 18px */
+  @media only screen and (max-width: 600px) {
+    .insta {
+      font-size: 18px;
+    }
+  }
