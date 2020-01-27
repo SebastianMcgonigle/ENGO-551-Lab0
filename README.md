@@ -15,3 +15,5 @@ Finally the contact tab provides the users a form to request a quote for our ser
 Below the form there is some general information about the team members working for Golden Boy Gardens, including hyperlinks to our social media pages. 
 
 Thank you for checking out my first website!
+
+Youtube Video: https://www.youtube.com/channel/UCyZQL1_5uk8CPxvDfJeRN9Q
